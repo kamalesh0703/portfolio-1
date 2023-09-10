@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header class="header">
+      <span class="logo">Kamalesh.</span>
+        <ul class="nav-item">
+          <li class="nav-list"><a href="#" class="nav-link active">Home</a></li>
+          <li class="nav-list"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-list"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-list"><a href="#project" class="nav-link">Projects</a></li>
+          <li class="nav-list"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+    </header>
+    <!-- Home Page -->
+    <main>
+        <section>
+            <div class="main">
+                <div class="detail">
+                  <h1><span>Hi,</span> <br> I'm <span style="color:#00E8F8;">Kamalesh</span><br><span class="role">Web Developer</span></h1>
+                  <p>With knowledge in web development and design,I offer <br> the best projects resulting in quality work. </p>
+                  <div class="social">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="images">
+                  <img src="assets/pass.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!--About Me--> 
+        <section id="about">
+          <div class="about-me">
+            <div class="icon">
+              <img src="./assets/pass4.png" alt="">
+            </div>
+            <div>
+              <h2>About <span style="color:#00E8F8">Me</span></h2>
+              <p>I'm a passionate web developer with a knack for crafting digital experiences that are both functional and visually appealing. My journey in the world of web development began  during college, and it has been an exhilarating ride ever since..</p>
+              <div class="contact">
+                <span><i class="fa-solid fa-phone" style="color: #00e8f8;"></i></span>+91 6382346283
+                <span><i class="fa-solid fa-envelope" style="color: #00e8f8;"></i></span>kamaleshponmani0703@gmail.com
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Page -->
+        <section id="services">
+          <div class="Services">
+            <h2>Our <span style="color: #00E8F8;">Services</span></h2>
+            <div class="services-box">
+              <div class="info-box">
+                <i class="bi bi-window-sidebar"></i>
+                <h3>Web Development</h3>
+                <p> Fully compatible and user-friendly dynamic websites to perform the user’s requirements.</p>
+              </div>
+              <div class="info-box">
+                <i class="bi bi-phone"></i>
+                <h3> Web App Development</h3>
+                <p>A web application developed using React is a modern and responsive user interface that provides an engaging and seamless user experience.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Projects Section -->
+
+        <section id="project">
+          <div class="project">
+            <h2>Projects</h2>
+            <div class="project-container">
+
+              
+                <div class="project-img">
+                  <a href="https://jukestream1.netlify.app"><img src="./assets/Android-Music-App-788x557.jpg" alt="" ></a>
+                  <p class="work-name">Juke Stream</p>
+                </div>
+<!-- 
+              <div class="project-img">
+                <p>card1</p>
+              </div>
+
+              <div class="project-img">
+                <p>card1</p>
+              </div>
+
+              <div class="project-img">
+                <p>card1</p>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <!--Contct Us-->
+  <section class="contact-form" id="contact">
+    <h2>Get in <span style="color: #00E8F8">Touch</h2>
+    <form action="#" onsubmit="send();reset();return false">
+      <div class="input-data">
+        <input type="text" name="firstName" placeholder="First Name" id="firstname">
+        <input type="text" name="lastName" placeholder="Last Name" id="lastname">
+      </div>
+      <div class="input-data">
+        <input type="email" name="email" placeholder="Email" id="email">
+        <input type="tel" name="number" max="10" placeholder="Phone No" id="telephone">
+      </div>
+      <textarea name="massage" placeholder="Write Massage" rows="10" id="message"></textarea>
+      <input type="submit" value="Send" class="send" >
+    </form>
+  </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/602dc648e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://kit.fontawesome.com/602dc648e8.js" crossorigin="anonymous"></script>
+  </body>
+</html>
