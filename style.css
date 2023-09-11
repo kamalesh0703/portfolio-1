@@ -306,7 +306,6 @@ p {
     transform: translate(-50%,-50%);
     z-index: 20;
     font-size:22px;
-    color: white;
     font-weight: bolder;
     display: none;
   }
