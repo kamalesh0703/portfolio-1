@@ -28,7 +28,7 @@ function send(){
         To : "ponmanikamalesh@gmail.com"  ,
         From : "kamaleshponmani0703@gmail.com",
         Subject : "New client Contact",
-        Body : "Name:"+fristname+" "+lastname+"<br/> Phone:"+phone+"<br/> Message:"+message+"Email:"+email
+        Body : "Name:"+fristname+" "+lastname+"<br/> Phone:"+phone+"<br/> Message:"+message+"<br/>Email:"+email
     }).then(
       message => alert(message)
     );
