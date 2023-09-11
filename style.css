@@ -286,7 +286,7 @@ p {
     transition: 1s;
     position: relative;
     cursor: pointer;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
   }
   .project-img>a> img{
     height: 100%;
