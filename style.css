@@ -343,7 +343,7 @@ p {
   background-color: transparent;
   color: #fff;
   padding: 1rem;
-  border: 1px solid var(--border-color);
+  border: 3px solid var(--border-color);
   margin: .8rem;
 }
 .input-data input {
