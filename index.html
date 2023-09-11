@@ -107,14 +107,14 @@
     <h2>Get in <span style="color: #00E8F8">Touch</h2>
     <form action="#" onsubmit="send();reset();return false">
       <div class="input-data">
-        <input type="text" name="firstName" placeholder="First Name" id="firstname">
-        <input type="text" name="lastName" placeholder="Last Name" id="lastname">
+        <input type="text" name="firstName" placeholder="First Name" id="firstname"  required>
+        <input type="text" name="lastName" placeholder="Last Name" id="lastname"  required>
       </div>
       <div class="input-data">
-        <input type="email" name="email" placeholder="Email" id="email">
-        <input type="tel" name="number" max="10" placeholder="Phone No" id="telephone">
+        <input type="email" name="email" placeholder="Email" id="email"  required>
+        <input type="tel" name="number" max="10" placeholder="Phone No" id="telephone"  required>
       </div>
-      <textarea name="massage" placeholder="Write Massage" rows="10" id="message"></textarea>
+      <textarea name="massage" placeholder="Write Massage" rows="10" id="message"  required></textarea>
       <input type="submit" value="Send" class="send" >
     </form>
   </section>
