@@ -402,3 +402,6 @@ form textarea {
         width: 87%;
     }
 }
+@media only screen and (min-width:900px){
+    .project-img{
+        height:30vh;
