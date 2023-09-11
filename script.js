@@ -25,11 +25,28 @@ function send(){
         Host : "smtp.elasticemail.com",
         Username : "kamaleshponmani0703@gmail.com",
         Password : "3C43434C4645384283BC9181C25AF9D8AC56",
-        To : email ,
-        From :"kamaleshponmani0703@gmail.com",
+        To : "ponmanikamalesh@gmail.com"  ,
+        From : "kamaleshponmani0703@gmail.com",
         Subject : "New client Contact",
-        Body : "Name:"+fristname+" "+lastname+"<br/> Phone:"+phone+"<br/> Message:"+message
+        Body : "Name:"+fristname+" "+lastname+"<br/> Phone:"+phone+"<br/> Message:"+message+"<br/>Email:"+email
     }).then(
       message => alert(message)
     );
+    // Email.send({
+    //     Host: "smtp.gmail.com",
+    //     Username: "sender@email_address.com",
+    //     Password: "Enter your password",
+    //     To: 'receiver@email_address.com',
+    //     From: "sender@email_address.com",
+    //     Subject: "Sending Email using javascript",
+    //     Body: "Well that was easy!!",
+    //     Attachments: [
+    //       {
+    //         name: "File_Name_with_Extension",
+    //         path: "Full Path of the file"
+    //       }]
+    //   })
+    //     .then(function (message) {
+    //       alert("Mail has been sent successfully")
+    //     });
 }
