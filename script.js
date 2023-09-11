@@ -25,8 +25,8 @@ function send(){
         Host : "smtp.elasticemail.com",
         Username : "kamaleshponmani0703@gmail.com",
         Password : "3C43434C4645384283BC9181C25AF9D8AC56",
-        To : email ,
-        From :"kamaleshponmani0703@gmail.com",
+        To : "kamaleshponmani0703@gmail.com" ,
+        From : email,
         Subject : "New client Contact",
         Body : "Name:"+fristname+" "+lastname+"<br/> Phone:"+phone+"<br/> Message:"+message
     }).then(
